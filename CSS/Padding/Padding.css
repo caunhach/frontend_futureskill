@@ -7,6 +7,9 @@ Padding is used to create space around an element's content, inside of any defin
 
 Caution!!! if an element has a specified width, the padding added to that element will be added to the total width of the element.
 use box-sizing: border-box to to maintain its actual width
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
 */
 
 .width-200 {
