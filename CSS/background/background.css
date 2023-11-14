@@ -1,0 +1,15 @@
+.background-color {
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+
+.background-image {
+	background-image: url("Cat03.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	width: 200px;
+	height: 200px;
+}
