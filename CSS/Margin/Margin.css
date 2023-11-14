@@ -1,3 +1,11 @@
+/*
+Margins are used to create space around elements, outside of any defined borders.
+4 values: top, right, bottom, left
+3 values: top, right-left, bottom
+2 values: top-bottom, right-left
+1 value: all four
+*/
+
 .border {
 	border: 10px solid red;
 	border: 10px dotted red;
