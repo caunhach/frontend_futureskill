@@ -1,0 +1,15 @@
+.border {
+	border: 10px solid red;
+	border: 10px dotted red;
+	border: 10px dashed red;
+	border-bottom: 10px solid blue;
+	width: 200px;
+	height: 200px;
+}
+
+.margin {
+	margin: 50px 100px 50px 20px;
+	background-color: red;
+	width: 200px;
+	height: 200px;
+}
