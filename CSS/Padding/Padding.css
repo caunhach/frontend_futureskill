@@ -1,0 +1,22 @@
+/*
+Padding is used to create space around an element's content, inside of any defined borders.
+4 values: top, right, bottom, left
+3 values: top, right-left, bottom
+2 values: top-bottom, right-left
+1 value: all four
+
+Caution!!! if an element has a specified width, the padding added to that element will be added to the total width of the element.
+use box-sizing: border-box to to maintain its actual width
+*/
+
+.width-200 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.padding {
+	padding: 90px 90px 20px 20px;
+	box-sizing: border-box;
+	background-color: goldenrod;
+};
