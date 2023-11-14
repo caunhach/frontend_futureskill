@@ -1,0 +1,13 @@
+/* 
+border: is short hand properties of border-width, border-style, border-size
+Noting that border will not invade the area of elements (invade outsize)
+*/
+
+.border {
+	border: 10px solid red;
+	border: 10px dotted red;
+	border: 10px dashed red;
+	border-bottom: 10px solid blue;
+	width: 200px;
+	height: 200px;
+}
