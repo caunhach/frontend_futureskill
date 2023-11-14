@@ -1,0 +1,19 @@
+/*
+% (only width)
+vw vh view-width, view-height
+pt pixel(no change in different device)
+*/
+
+.width-200 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.width-height {
+	width: 50%;
+	height: 50vh;
+	height: 50vw;
+	background-color: aqua;
+	max-width: 200px;
+}
