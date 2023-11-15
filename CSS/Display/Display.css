@@ -1,0 +1,39 @@
+.display p:first-child{
+	display: none;
+}
+
+.display p:nth-child(2){
+	display: block;
+}
+
+.display p:nth-child(3){
+	display: inline-block;
+}
+
+.display p:nth-child(4){
+	display: inline;
+}
+
+.display p:nth-child(6){
+	display: inline;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex .flex-item {
+	flex: 1;
+	height: 30px;
+	margin: 5px;
+	width: 30px;
+	background-color: yellow;
+}
+
+.flex .flex-item:first-child {
+	flex: 2;
+	height: 30px;
+	margin: 5px;
+	background-color: yellow;
+}
