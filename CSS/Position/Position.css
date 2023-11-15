@@ -1,0 +1,39 @@
+/*
+position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:
+position: relative; is positioned relative to its normal position.
+position: absolute; is positioned relative to the nearest positioned ancestor
+position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
+position: sticky; is positioned based on the user's scroll position.
+
+trick! use position:fixed with nav bar
+
+for absolute position, use position: relative as root
+*/
+
+.position {
+	position: relative;
+}
+
+.position div:first-child{
+	position: static;
+}
+
+.position div:nth-child(2){
+	position: absolute;
+	right: 0;
+	top: 200px;
+}
+
+.position div:nth-child(3){
+	position: relative;
+	top: 180px;
+	left: 100px;
+}
+
+.position div:nth-child(4){
+	position: fixed;
+}
+
+.position div:nth-child(5){
+	position: sticky;
+}
