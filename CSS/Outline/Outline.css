@@ -1,0 +1,19 @@
+/*
+An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out"
+
+outline-offset property adds space between an outline and the edge/border of an element.
+*/
+
+.width-200 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.Outline {
+	width: 200px;
+	height: 200px;
+	border: 5px double green;
+	outline: 10px solid blue;
+	outline-offset: 5px;
+}

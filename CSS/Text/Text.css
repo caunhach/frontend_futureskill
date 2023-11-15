@@ -1,0 +1,46 @@
+/*
+- text alignment is used to set the horizontal alignment of a text.
+- text decoration property is used to add a decoration line to text
+- text transform property is used to specify uppercase and lowercase letters in a text.
+- text indent is used to specify indentation. use text spacing for decorating paragraph. 
+All links in HTML are underlined by default. Sometimes you see that links are styled with no underline. The text-decoration: none; is used to remove the underline from links, like this:
+
+text-decoration: none;
+*/
+.text {
+	text-align: right;
+}
+
+.justify {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.decoration {
+	text-decoration: overline;
+	text-decoration: line-through;
+	text-decoration: 10px underline purple dotted;
+}
+
+.transform {
+	margin-top: 10px;
+	text-transform: lowercase;
+	text-transform: uppercase;
+	text-transform: capitalize;
+}
+
+.indent {
+	text-indent: 50px;
+	letter-spacing: 3px;
+	letter-spacing: -1px;
+	line-height: 1.5;
+	text-shadow: 5px 5px 10px red;
+	word-spacing: 15px;
+	font-size: 20px;
+	width: 100px;
+}

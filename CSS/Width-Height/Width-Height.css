@@ -12,8 +12,7 @@ pt pixel(no change in different device)
 
 .width-height {
 	width: 50%;
-	height: 50vh;
-	height: 50vw;
-	background-color: aqua;
+	height: 20vh;
 	max-width: 200px;
+	background-color: blue;
 }
