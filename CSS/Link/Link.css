@@ -20,10 +20,10 @@ a:active MUST come after a:hover
 
 .link a:hover{
 	color:red;
-	text-decoration: none;	t
+	text-decoration: none;
 }
 
-.link a:active {
+.link a:active{
 	color: hotpink;
 	background-color: black;
-  }
+}
